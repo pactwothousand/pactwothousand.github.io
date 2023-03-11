@@ -1,0 +1,160 @@
+/* Body defining the width of the webpage, centring the webpage and font defaults */
+body {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0;
+    font-family: Times, 'Times New Roman', Georgia, serif;
+    font-size: 14pt;
+    color: #333333;
+    }
+/*    .wrapper {
+    /* Navigation Bar defining the background colour height and padding*/
+.navBar {
+    background-color: #333333;
+    height:30px;
+    padding:10px;
+
+    }
+/* span.navigation Place holder
+The following are for the class 'navigation' in order to define the behaviour
+of the mouse and keyboard focus in the navigation header bar
+*/
+/* unvisited link - to override browser default unvisited link colour */
+a.navigation:link {
+color:#fefefe;
+text-decoration: none;
+padding: 0px 10px;
+}  
+/* visited link - to override browser default visted link colour */
+a.navigation:visited {
+color:#fefefe; 
+}
+/* mouse over link - to change the colour and place underline to 
+highlight a link when the mouse is hovering over the link */
+a.navigation:hover {
+color:#FF0000; 
+border-bottom: 3px solid #FF0000;
+}
+/* Keyboard focus - to to change the colour and place underline to 
+highlight a link when the keybaord focus is on the link */
+a.navigation:focus {
+color:#FF0000; 
+border-bottom: 3px solid #FF0000;
+}
+/* active page class - to provide colour formating and underline for the active/current page */
+a.active {
+color:#FF0000; 
+text-decoration: none;
+padding: 0px 10px;
+border-bottom: 3px solid #FF0000;
+}
+
+/* Grid Wrapper defining the grid, the column width and gap */
+.gridWrapper {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 248px 248px 248px 248px;
+    }
+    .grid2Wrapper {
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: 330px 660px;
+        }
+/* Box Wrapper defining the font size and padding below the link text */    
+.box {
+    font-size: 14px;
+    padding-bottom: 20px;
+    }
+/* Nested Grid defining the position and span of each of the 7 boxes */
+    .a {
+        grid-column: 1;
+        grid-row:1;
+        }
+    .b {
+        grid-column: 2 ;
+        grid-row: 1;
+        }
+    .c {
+        grid-column: 3 ;
+        grid-row: 1 ;
+        }
+    .d {
+        grid-column: 1 ;
+        grid-row: 2 ;
+        }
+    .e {
+        grid-column: 2;
+        grid-row: 2;
+        }
+    .f {
+        grid-column: 3;
+        grid-row: 2;
+        }
+/* Nested Grid - bypass g for grid2wrapper */
+        .g {
+        grid-column: 4;
+        grid-row: 1 / span 2;
+        }
+        .h {
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .i {
+            grid-column: 2;
+            grid-row: 3;
+        }
+        .j {
+            grid-column: 1;
+            grid-row: 4;
+        }
+        .k {
+            grid-column: 2;
+            grid-row: 4;
+        }
+    .logo {
+        float: left;
+        position: relative;
+        margin: 10px 15px 15px 10px;
+    }
+    .logobar {
+       overflow: hidden;
+       height: 140px;
+    }
+    .logout {
+        top: 50%;
+        transform: translateY(-50%);
+
+        padding: 1em;
+        float: right;
+        position: relative;
+    }
+    .centre {
+        text-align: center;
+        margin: auto;
+        
+      }
+    a.button {
+        color: #090909;
+        padding: 0.3em 1.7em;
+        font-size: 18px;
+        border-radius: 0.5em;
+        background: #e8e8e8;
+        border: 1px solid #0a0a0a;
+    }
+    main {
+        /* Set grid and padding between grid elements */
+        display: grid;
+        grid-gap: 1rem;
+        /* Three columns for default/larger screen size */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .walk {
+        padding: 1rem;
+        font-size: 1rem;
+        background-color: lightgrey;
+    }
+
+    .footer {
+        font-size: 12px;
+        }
+    
