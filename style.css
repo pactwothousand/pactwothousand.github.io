@@ -21,13 +21,13 @@ of the mouse and keyboard focus in the navigation header bar
 */
 /* unvisited link - to override browser default unvisited link colour */
 a.navigation:link {
-color:#fefefe;
+color:#3845f5;
 text-decoration: none;
 padding: 0px 10px;
 }  
 /* visited link - to override browser default visted link colour */
 a.navigation:visited {
-color:#fefefe; 
+color:#3845f5; 
 }
 /* mouse over link - to change the colour and place underline to 
 highlight a link when the mouse is hovering over the link */
